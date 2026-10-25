@@ -1,0 +1,92 @@
+export const INITIAL_JOBS = [
+  {
+    id: 1,
+    title: 'Senior Full-Stack Engineer',
+    company: 'Cloudscale Systems',
+    companyLogo: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80',
+    location: 'Remote (US & Canada)',
+    workplaceType: 'Remote',
+    salaryRange: '$165,000 - $195,000',
+    stageFocus: 'Returner-Friendly',
+    matchScore: 96,
+    stageBenefit: 'Explicitly welcomes career pauses; offers a 30-day asynchronous ramp-up and dedicated mentor.',
+    skills: ['React 19', 'Python / FastAPI', 'PostgreSQL', 'System Design'],
+    description:
+      'We are scaling our core infrastructure telemetry engine. We seek a thoughtful engineer who values code craftsmanship, clean architecture, and team mentorship. Returning engineers are encouraged to apply.',
+    requirements:
+      '4+ years of production experience in React and modern Python/Go; experience with async APIs and distributed systems.',
+    postedAt: '1 day ago',
+  },
+  {
+    id: 2,
+    title: 'Design Systems Lead',
+    company: 'GitLab',
+    companyLogo: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80',
+    location: 'Remote (Worldwide)',
+    workplaceType: 'Remote',
+    salaryRange: '$170,000 - $205,000',
+    stageFocus: 'All Stages',
+    matchScore: 94,
+    stageBenefit: '100% async work culture with zero required sync meetings — ideal for balanced schedules.',
+    skills: ['React', 'TypeScript', 'Tailwind CSS', 'Figma Tokens', 'Accessibility'],
+    description:
+      'Lead our multi-platform component library used by hundreds of engineers and thousands of open-source contributors. Champion accessibility, token architecture, and documentation.',
+    requirements:
+      'Deep expertise in modern React, design tokens, WCAG 2.1 AA compliance, and cross-functional design collaboration.',
+    postedAt: '2 days ago',
+  },
+  {
+    id: 3,
+    title: 'Junior Frontend Developer',
+    company: 'Linear',
+    companyLogo: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&auto=format&fit=crop&q=80',
+    location: 'San Francisco, CA / Remote',
+    workplaceType: 'Hybrid or Remote',
+    salaryRange: '$95,000 - $115,000',
+    stageFocus: 'Student-Friendly',
+    matchScore: 91,
+    stageBenefit: 'Evaluates personal projects and technical curiosity over years on a resume.',
+    skills: ['React', 'TypeScript', 'CSS Animation', 'WebSockets'],
+    description:
+      'Build desktop-class web applications with 60fps animations, keyboard-first navigation, and real-time sync. We actively scout passionate fresh graduates with standout capstones.',
+    requirements:
+      'Demonstrated portfolio of polished React apps, understanding of modern browser rendering, and keen eye for micro-interactions.',
+    postedAt: '3 days ago',
+  },
+  {
+    id: 4,
+    title: 'Principal Platform Architect',
+    company: 'Datadog',
+    companyLogo: 'https://images.unsplash.com/photo-1579389083078-4e7018379f7e?w=100&auto=format&fit=crop&q=80',
+    location: 'New York, NY (Hybrid)',
+    workplaceType: 'Hybrid',
+    salaryRange: '$225,000 - $270,000',
+    stageFocus: 'Senior-Level',
+    matchScore: 97,
+    stageBenefit: 'High-autonomy strategic leadership role with direct VP partnership.',
+    skills: ['Distributed Systems', 'Kubernetes', 'Go', 'High-Throughput Pipelines'],
+    description:
+      'Architect next-generation observability data planes handling petabytes of live streaming metrics per day with 99.999% reliability.',
+    requirements:
+      '8+ years scaling high-throughput distributed systems and mentoring engineering leads into principals.',
+    postedAt: '4 days ago',
+  },
+  {
+    id: 5,
+    title: 'Full-Stack Product Engineer',
+    company: 'Notion',
+    companyLogo: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=100&auto=format&fit=crop&q=80',
+    location: 'San Francisco, CA (Remote Friendly)',
+    workplaceType: 'Remote',
+    salaryRange: '$150,000 - $185,000',
+    stageFocus: 'All Stages',
+    matchScore: 89,
+    stageBenefit: 'Emphasis on product intuition and user empathy rather than traditional career ladders.',
+    skills: ['React', 'Node.js', 'PostgreSQL', 'Collaborative Editing'],
+    description:
+      'Create delightful productivity tools used by millions. Work across the stack to build AI document assistants, databases, and workspace navigation.',
+    requirements:
+      'Experience with client-side state management, responsive UX, and scalable relational schemas.',
+    postedAt: 'Just now',
+  },
+]
